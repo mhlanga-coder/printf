@@ -75,7 +75,6 @@ int print_S(va_list S)
 		str = "(null)";
 	for (i = 0; str[i]; i++)
 	{
-
 		if (str[i] < 32 || str[i] >= 127)
 		{
 			_putchar('\\');
